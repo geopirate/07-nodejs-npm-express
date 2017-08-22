@@ -1,0 +1,27 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "Lab assignment to set up Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "notests",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geopirate/07-nodejs-npm-express.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "George and Mario",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geopirate/07-nodejs-npm-express/issues"
+  },
+  "homepage": "https://github.com/geopirate/07-nodejs-npm-express#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
