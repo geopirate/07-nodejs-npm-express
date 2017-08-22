@@ -1,5 +1,6 @@
 'use strict';
 
+
 // TODO: DONE Initialize your project using NPM to create and populate a package.json file
 const express = require('express');
 // TODO: DONE Require the Express package that you installed via NPM, and instantiate the app
@@ -13,8 +14,6 @@ const PORT = process.env.PORT || 3000;
 // TODO: DONE Include all of the static resources as an argument to app.use()
 app.use(express.static('./public'));
 // TODO: (STRETCH) Write a new route that will handle a request and send the new.html file back to the user
-
-
 app.post('/articles', bodyParser, function(request, response) {
   // REVIEW: This route will receive a new article from the form page, new.html,
   // and log that form data to the console. We will wire this up soon to actually
